@@ -5,13 +5,6 @@ const path			= require("path");
 const cors			= require("cors");
 const Twit 			= require('twit');
 
-/* Importing Twitter API Keys, setting up REST access. */
-const config 		= require(path.join(__dirname, "config/keys.js"));
-const T 			= new Twit(config);
-
-/* Importing top 100 twitter users */
-const users			= require(path.join(__dirname, "config/users.js"));
-
 /* Initialize Express app */
 const app 			= express(); 
 
@@ -32,6 +25,12 @@ app.use(express.static(path.join(__dirname, "public")));
 const PORT = process.env.PORT || 3000;
 app.set("Port", PORT);
 
+/* Importing Twitter API Keys, setting up REST access. */
+const config 		= require(path.join(__dirname, "config/keys.js"));
+const T 			= new Twit(config);
+
+/* Importing top 100 twitter users */
+const users			= require(path.join(__dirname, "config/users.js"));
 
 /* Post Route */
 app.post("/", (req, res) => {
