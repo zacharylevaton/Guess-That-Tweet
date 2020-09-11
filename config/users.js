@@ -1,0 +1,22 @@
+module.exports = {
+	"1":"@BarackObama","2":"@justinbieber","3":"@katyperry","4":"@rihanna","5":"@Cristiano",
+	"6":"@taylorswift13","7":"@realDonaldTrump","8":"@ladygaga","9":"@TheEllenShow","10":"@ArianaGrande",
+	"11":"@YouTube","12":"@KimKardashian","13":"@jtimberlake","14":"@selenagomez","15":"@narendramodi",
+	"16":"@cnnbrk","17":"@Twitter","18":"@britneyspears","19":"@ddlovato","20":"@shakira",
+	"21":"@jimmyfallon","22":"@BillGates","23":"@CNN","24":"@neymarjr","25":"@nytimes",
+	"26":"@KingJames","27":"@JLo","28":"@BBCBreaking","29":"@MileyCyrus","30":"@SrBachchan",
+	"31":"@Oprah","32":"@BrunoMars","33":"@BeingSalmanKhan","34":"@iamsrk","35":"@NiallOfficial",
+	"36":"@NASA","37":"@Drake","38":"@akshaykumar","39":"@PMOIndia","40":"@elonmusk",
+	"41":"@imVkohli","42":"@SportsCenter","43":"@wizkhalifa","44":"@KevinHart4real","45":"@espn",
+	"46":"@Harry_Styles","47":"@instagram","48":"@KylieJenner","49":"@LilTunechi","50":"@realmadrid",
+	"51":"@Louis_Tomlinson","52":"@LiamPayne","53":"@sachin_rt","54":"@FCBarcelona","55":"@chrisbrown",
+	"56":"@Pink","57":"@onedirection","58":"@POTUS","59":"@NBA","60":"@kanyewest",
+	"61":"@aliciakeys","62":"@ChampionsLeague","63":"@KendallJenner","64":"@KAKA","65":"@iHrithik",
+	"66":"@zaynmalik","67":"@EmmaWatson","68":"@BBCWorld","69":"@ConanOBrien","70":"@HillaryClinton",
+	"71":"@BTS_twt","72":"@khloekardashian","73":"@deepikapadukone","74":"@Adele","75":"@priyankachopra",
+	"76":"@aamir_khan","77":"@ActuallyNPH","78":"@pitbull","79":"@ShawnMendes","80":"@NFL",
+	"81":"@kourtneykardash","82":"@danieltosh","83":"@TheEconomist","84":"@MesutOzil1088","85":"@andresiniesta8",
+	"86":"@WhiteHouse","87":"@NatGeo","88":"@coldplay","89":"@arrahman","90":"@premierleague",
+	"91":"@Eminem","92":"@ManUtd","93":"@Reuters","94":"@Google","95":"@AnushkaSharma",
+	"96":"@MariahCarey","97":"@AvrilLavigne","98":"@NICKIMINAJ","99":"@davidguetta","100":"@ricky_martin"
+};

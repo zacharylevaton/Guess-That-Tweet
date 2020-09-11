@@ -1,0 +1,54 @@
+body {
+	background-color: #55ACEE !important;
+	font-size: 30px !important;
+	font-family: 'Helvetica Neue' !important;
+}
+
+h1 {
+	font-size: 5vw;
+}
+
+p {
+	font-size: 2vw;
+}
+
+.title-container {
+	width: 70%;
+}
+
+.game-container {
+	width: 70%;
+}
+
+.title-content {
+	width: 70%;
+	display: inline-block;
+}
+
+#title-left {
+	width: 70%;
+	text-align: left;
+}
+
+#title-right {
+	width: 20%;
+	text-align: center;
+	font-size: 7.5vw;
+}
+
+/* Twitter icon styling from W3School */
+.fa {
+	text-align: center;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: #55ACEE;
+}
+
+
+
+.game-block {
+	min-height: 69vh;
+}
+
+
