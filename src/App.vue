@@ -35,9 +35,9 @@
 </template>
 
 <script>
-import PlayButton from "./components/PlayButton";
-import GuessTweet from "./components/GuessTweet";
-import WelcomeMessage from "./components/WelcomeMessage";
+import PlayButton from "@/components/PlayButton";
+import GuessTweet from "@/components/GuessTweet";
+import WelcomeMessage from "@/components/WelcomeMessage";
 
 export default {
    data () {
