@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import TweetService from "@/services/TweetService";
-import TweetChoice from "@/components/TweetChoice";
-import Loading from "@/components/Loading";
+import TweetService from "./services/TweetService";
+import TweetChoice from "./components/TweetChoice";
+import Loading from "./components/Loading";
 
 export default {
    components: {
