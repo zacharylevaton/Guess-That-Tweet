@@ -35,8 +35,8 @@ const users			= require(path.join(__dirname, "config/users.js"));
 /* Post Route */
 app.post("/", (req, res) => {
 	// Importing some functions from static files. 
-	let output 	= require(path.join(__dirname, "public/values.js"))();
-	let date	= require(path.join(__dirname, "public/week-ago.js"))();
+	let output 	= require(path.join(__dirname, "dist/js/values.js"))();
+	let date	= require(path.join(__dirname, "dist/js/week-ago.js"))();
 	let query 	= "from:" + users[output.answer] + " since:" + date;
 
 	// Getting Twitter names.
