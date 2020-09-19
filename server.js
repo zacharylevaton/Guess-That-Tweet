@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 // Cors middleware.
 app.use(cors());
 // Setting up static directory.
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "dist")));
 
 
 /* Setting up on port */
@@ -26,17 +26,17 @@ const PORT = process.env.PORT || 3000;
 app.set("Port", PORT);
 
 /* Importing Twitter API Keys, setting up REST access. */
-const config 		= require(path.join(__dirname, "public/keys.js"));
+const config 		= require(path.join(__dirname, "dist/keys.js"));
 const T 			= new Twit(config);
 
 /* Importing top 100 twitter users */
-const users			= require(path.join(__dirname, "public/users.js"));
+const users			= require(path.join(__dirname, "dist/users.js"));
 
 /* Post Route */
 app.post("/", (req, res) => {
 	// Importing some functions from static files. 
-	let output 	= require(path.join(__dirname, "public/values.js"))();
-	let date	= require(path.join(__dirname, "public/week-ago.js"))();
+	let output 	= require(path.join(__dirname, "dist/values.js"))();
+	let date	= require(path.join(__dirname, "dist/week-ago.js"))();
 	let query 	= "from:" + users[output.answer] + " since:" + date;
 
 	// Getting Twitter names.
