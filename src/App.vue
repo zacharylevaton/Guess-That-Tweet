@@ -1,7 +1,4 @@
 <template>
-  <div id="app">
-    <!--<PlayButton :replaying="false" v-on:childToParent="onPlayClick" v-on:change="show = !show" v-if="!show"></PlayButton>-->
-
     <div id="upper" v-if="!show">
        <WelcomeMessage></WelcomeMessage>
     </div>
@@ -30,8 +27,6 @@
           </div>
        </div>
     </div>
-    <router-view/>
-  </div>
 </template>
 
 <script>
