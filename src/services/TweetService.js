@@ -4,7 +4,7 @@ export default {
    async getTweets() {
       let running = true;
       while (running) {
-         let baseUrl = process.env.baseURL || "http://localhost:3000"
+         let baseUrl = "https://guess-that-tweet-zachlevaton.herokuapp.com/" || "http://localhost:3000";
          let res = await axios.post(baseUrl);
          while (!res.data) {
             res = await axios.post(baseUrl);
